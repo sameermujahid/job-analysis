@@ -228,25 +228,32 @@ aggregated_skills = df.groupby('Job ID')['Key Skills'].apply(lambda x: list(sort
 df = df.drop(columns=['Key Skills']).merge(aggregated_skills, on='Job ID', how='left')
 ```
 
-## Analysis
+# Analysis
 
-### Top Categories Analysis
+## Top Categories Analysis
+
+### Top Categories in Roles
 ![Top Categories in Roles](https://github.com/user-attachments/assets/6d1c7e9b-5754-479e-aea0-497fcd01f3c6)
 
+### Top Categories in Companies
 ![Top Categories in Companies](https://github.com/user-attachments/assets/33fa5533-9b80-4c6d-91da-6fbb81cd9ca8)
 
+### Top Categories in Locations
 ![Top Categories in Locations](https://github.com/user-attachments/assets/6c2921b9-cca6-46e0-b788-01a06643b3af)
 
+### Top Categories in Skills
 ![Top Categories in Skills](https://github.com/user-attachments/assets/277ae6c6-61dc-40c1-9542-2eb4b2814539)
 
+### Top Categories in Role Categories
 ![Top Categories in Role Categories](https://github.com/user-attachments/assets/587564d3-62f1-4652-9eb4-136c8715c853)
 
-### Salary and Employment Analysis
+
+## Salary and Employment Analysis
 ![Max Salary by Industry Type](https://github.com/user-attachments/assets/65c02754-5fff-4533-b4f4-aa8c5d37bd03)
 
 ![Average Openings for Employment Type](https://github.com/user-attachments/assets/47a516fe-6182-41f5-9d15-a7d003890111)
 
-### Skills Requirement Analysis
+## Skills Requirement Analysis
 ![Skills Needed for Top 10 Roles](https://github.com/user-attachments/assets/463bbc3e-2af5-460a-8d42-6636f36b329e)
 
 ## Power BI
