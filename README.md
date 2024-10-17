@@ -6,7 +6,7 @@ This repository presents a comprehensive analysis of job data extracted from the
 
 ## Workflow
 
-1. **Data Scraping**: Employed the [Naukari Web Scraper](https://github.com/sameermujahid/Naukari-web-scraper) to extract job data from the Naukari website.
+1. **Data Scraping**: Use the [Naukari Web Scraper](https://github.com/sameermujahid/Naukari-web-scraper) to extract job data from the Naukari website.
 2. **Data Validation**: Cleaned and validated the scraped data to ensure accuracy and consistency.
 3. **Exploratory Data Analysis (EDA)**: Conducted univariate, bivariate, and multivariate analyses to uncover patterns in the dataset.
 4. **Data Visualization**: Developed visual representations of the data using Power BI.
